@@ -8,12 +8,12 @@
   <default remote="ossystems" revision="InvalidRevision" sync-j="4"/>
 
   <!-- OpenEmbedded Layers -->
-  <project name="bitbake" path="sources/bitbake" remote="oe" revision="1.44"/>
-  <project name="openembedded-core" path="sources/openembedded-core" revision="zeus"/>
-  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="zeus"/>
+  <project name="bitbake" path="sources/bitbake" remote="oe" revision="fd279f857c98d492f43cc62d9ebae18ce6412b6e"/>
+  <project name="openembedded-core" path="sources/openembedded-core" revision="f5b90eeed7366432b39c7cd8c6ee8c23e2d4abe8"/>
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="2b5dd1eb81cd08bc065bc76125f2856e9383e98b"/>
 
   <!-- OS Systems Layers -->
-  <project name="meta-ossystems-base" path="sources/meta-ossystems-base" revision="zeus"/>
+  <project name="meta-ossystems-base" path="sources/meta-ossystems-base" revision="feac03b88622e806cc4e75de5933a2c33d8a6fb5"/>
   <project name="ossystems-yocto-base-scripts" path="sources/base" revision="zeus">
     <copyfile dest="setup-environment" src="setup-environment"/>
   </project>
@@ -21,10 +21,10 @@
   <project name="apps/ye" path="sources/ye" revision="master"/>
 
   <!-- UpdateHub Layer -->
-  <project remote="github" revision="zeus" name="UpdateHub/meta-updatehub" path="sources/meta-updatehub"/>
+  <project remote="github" revision="2d683a66c04468b0ac68d1bb92b7c1ee4ce1372e" name="UpdateHub/meta-updatehub" path="sources/meta-updatehub"/>
 
   <!-- ShellHub layer -->
-  <project remote="github" revision="zeus" name="shellhub-io/meta-shellhub" path="sources/meta-shellhub"/>
+  <project remote="github" revision="35cd803c3658a93543631577616527f90c62bd9d" name="shellhub-io/meta-shellhub" path="sources/meta-shellhub"/>
 
   <!-- Inobram Layer -->
   <project name="inobram/smaai5/meta-smaai5" path="sources/meta-smaai5" revision="6.1.x"/>
