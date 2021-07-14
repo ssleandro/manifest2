@@ -24,7 +24,7 @@
   <project remote="github" revision="2d683a66c04468b0ac68d1bb92b7c1ee4ce1372e" name="UpdateHub/meta-updatehub" path="sources/meta-updatehub"/>
 
   <!-- ShellHub layer -->
-  <project remote="github" revision="35cd803c3658a93543631577616527f90c62bd9d" name="shellhub-io/meta-shellhub" path="sources/meta-shellhub"/>
+  <project remote="github" revision="948ff71a03efd0330e644960c9205a082a6440a0" name="shellhub-io/meta-shellhub" path="sources/meta-shellhub"/>
 
   <!-- Inobram Layer -->
   <project name="inobram/smaai5/meta-smaai5" path="sources/meta-smaai5" revision="6.1.x"/>
