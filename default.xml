@@ -13,7 +13,7 @@
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="2b5dd1eb81cd08bc065bc76125f2856e9383e98b"/>
 
   <!-- OS Systems Layers -->
-  <project name="meta-ossystems-base" path="sources/meta-ossystems-base" revision="feac03b88622e806cc4e75de5933a2c33d8a6fb5"/>
+  <project name="meta-ossystems-base" path="sources/meta-ossystems-base" revision="104fa15fa46685315c3862a231ccb6fe51b71474"/>
   <project name="ossystems-yocto-base-scripts" path="sources/base" revision="zeus">
     <copyfile dest="setup-environment" src="setup-environment"/>
   </project>
