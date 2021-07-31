@@ -4,30 +4,20 @@
   <remote fetch="git://git.openembedded.org" name="oe"/>
   <remote fetch="ssh://code.ossystems.com.br" name="ossystems" review="code.ossystems.com.br"/>
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
-
+  
   <default remote="ossystems" revision="InvalidRevision" sync-j="4"/>
-
-  <!-- OpenEmbedded Layers -->
+  
+  <project name="UpdateHub/meta-updatehub" path="sources/meta-updatehub" remote="github" revision="2d683a66c04468b0ac68d1bb92b7c1ee4ce1372e"/>
+  <project dest-branch="master" name="apps/ye" path="sources/ye" revision="dc9fc8a0bebc4214f458c5b43a50e71ad5d0a1c7" upstream="master"/>
   <project name="bitbake" path="sources/bitbake" remote="oe" revision="fd279f857c98d492f43cc62d9ebae18ce6412b6e"/>
-  <project name="openembedded-core" path="sources/openembedded-core" revision="f5b90eeed7366432b39c7cd8c6ee8c23e2d4abe8"/>
+  <project dest-branch="6.1.x" name="inobram/smaai5/meta-smaai5" path="sources/meta-smaai5" revision="27e5ab82c361ddf66ea174fab4d2e3ad60d9b211" upstream="6.1.x"/>
+  <project dest-branch="6.1.x" name="inobram/smaai5/yocto-config" path="sources/conf/tools" revision="a8efef8735581552b4fd2e2b6257258649fb997a" upstream="6.1.x"/>
+  <project dest-branch="6.1.x" name="inobram/smaai5/yocto-platform" path="sources/conf/repo" revision="74e82b43c5984e274d9c0218444f95a002b55a19" upstream="6.1.x"/>
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="2b5dd1eb81cd08bc065bc76125f2856e9383e98b"/>
-
-  <!-- OS Systems Layers -->
   <project name="meta-ossystems-base" path="sources/meta-ossystems-base" revision="104fa15fa46685315c3862a231ccb6fe51b71474"/>
-  <project name="ossystems-yocto-base-scripts" path="sources/base" revision="zeus">
+  <project name="openembedded-core" path="sources/openembedded-core" revision="f5b90eeed7366432b39c7cd8c6ee8c23e2d4abe8"/>
+  <project dest-branch="zeus" name="ossystems-yocto-base-scripts" path="sources/base" revision="8d5daf9633a53a1e5171302d7122d71fc76a87a8" upstream="zeus">
     <copyfile dest="setup-environment" src="setup-environment"/>
   </project>
-
-  <project name="apps/ye" path="sources/ye" revision="master"/>
-
-  <!-- UpdateHub Layer -->
-  <project remote="github" revision="2d683a66c04468b0ac68d1bb92b7c1ee4ce1372e" name="UpdateHub/meta-updatehub" path="sources/meta-updatehub"/>
-
-  <!-- ShellHub layer -->
-  <project remote="github" revision="948ff71a03efd0330e644960c9205a082a6440a0" name="shellhub-io/meta-shellhub" path="sources/meta-shellhub"/>
-
-  <!-- Inobram Layer -->
-  <project name="inobram/smaai5/meta-smaai5" path="sources/meta-smaai5" revision="6.1.x"/>
-  <project name="inobram/smaai5/yocto-config" path="sources/conf/tools" revision="6.1.x"/>
-  <project name="inobram/smaai5/yocto-platform" path="sources/conf/repo" revision="6.1.x"/>
+  <project name="shellhub-io/meta-shellhub" path="sources/meta-shellhub" remote="github" revision="948ff71a03efd0330e644960c9205a082a6440a0"/>
 </manifest>
