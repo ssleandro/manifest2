@@ -26,6 +26,9 @@
   <!-- ShellHub layer -->
   <project remote="github" revision="5e02571037b6be6f897f62f0edaed3609468ee80" name="shellhub-io/meta-shellhub" path="sources/meta-shellhub"/>
 
+  <!-- Meta Rust Bin layer -->
+  <project remote="github" revision="7a972fca33486e4815ed943884ebaa269b812860" name="rust-embedded/meta-rust-bin" path="sources/meta-rust-bin"/>
+		
   <!-- Inobram Layer -->
   <project name="inobram/smaai5/meta-smaai5" path="sources/meta-smaai5" revision="6.1.x"/>
   <project name="inobram/smaai5/yocto-config" path="sources/conf/tools" revision="6.1.x"/>
