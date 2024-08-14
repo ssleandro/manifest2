@@ -22,7 +22,7 @@
   <project remote="github" name="UpdateHub/meta-updatehub" path="sources/meta-updatehub"/>
 
   <!-- ShellHub layer -->
-  <project remote="github" revision="master" name="shellhub-io/meta-shellhub" path="sources/meta-shellhub"/>
+  <project remote="github" revision="scarthgap" name="shellhub-io/meta-shellhub" path="sources/meta-shellhub"/>
 
   <!-- Qt5 Layer -->
   <project remote="github" name="meta-qt5/meta-qt5" path="sources/meta-qt5"/>
