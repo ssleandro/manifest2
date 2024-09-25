@@ -10,6 +10,7 @@ def __set_defaults_inobram():
     INOBRAM_VALID_MACHINES += [
         'ambientte-imx7d-r1',
         'smaai5-am335x',
+        'smaaix-imx8mm-r1',
     ]
 
     local_conf_exists = os.path.isfile(os.path.join(build_dir,
@@ -55,6 +56,7 @@ def __after_init_inobram_yocto():
                         'meta-openembedded/meta-webserver',
                         'meta-qt5',
                         'meta-smaai5',
+                        'meta-nexcomm',
                     ]])
     # FSL EULA
     eulas.accept['meta-freescale/EULA'] = 'ACCEPT_FSL_EULA = "1"'
