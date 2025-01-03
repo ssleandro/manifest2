@@ -56,7 +56,6 @@ def __after_init_inobram_yocto():
                         'meta-openembedded/meta-webserver',
                         'meta-qt5',
                         'meta-smaai5',
-                        'meta-nexcomm',
                     ]])
     # FSL EULA
     eulas.accept['meta-freescale/EULA'] = 'ACCEPT_FSL_EULA = "1"'

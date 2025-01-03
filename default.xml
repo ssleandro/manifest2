@@ -3,7 +3,6 @@
   <remote fetch="https://github.com" name="github"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
   <remote fetch="ssh://code.ossystems.com.br" name="ossystems" review="code.ossystems.com.br"/>
-  <remote fetch="ssh://git@bitbucket.org" name="bitbucket"/>
 
   <default revision="kirkstone" sync-j="4"/>
 
@@ -35,5 +34,4 @@
   <!-- Inobram Layer -->
   <project remote="ossystems" revision="master" name="inobram/smaai5/meta-smaai5" path="sources/meta-smaai5"/>
   <project remote="ossystems" revision="master" name="inobram/smaai5/yocto-platform" path="sources/platform"/>
-  <project remote="bitbucket" revision="main" name="inobram/meta-nexcomm" path="sources/meta-nexcomm"/>
 </manifest>
