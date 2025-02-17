@@ -24,7 +24,7 @@
   <project remote="github" revision="ff81777997add4496254eca097735a945fa96022" name="UpdateHub/meta-updatehub" path="sources/meta-updatehub"/>
 
   <!-- ShellHub layer -->
-  <project remote="github" revision="8a09487a42e9ff170222848bfd8be81285d764dd" name="shellhub-io/meta-shellhub" path="sources/meta-shellhub"/>
+  <project remote="github" revision="4611da7b2fb13db4f96ea6695914147a0d8d2951" name="shellhub-io/meta-shellhub" path="sources/meta-shellhub"/>
 
   <!-- Meta Rust Bin layer -->
   <project remote="github" revision="7a972fca33486e4815ed943884ebaa269b812860" name="rust-embedded/meta-rust-bin" path="sources/meta-rust-bin"/>
