@@ -15,7 +15,7 @@
 
   <!-- OS Systems Layers -->
   <project remote="github" name="OSSystemsEmbeddedLinux/meta-ossystems-base" path="sources/meta-ossystems-base" revision="64ecdedb228afb6761e159999f35e90577b09915"/>
-  <project remote="github" revision="master" name="OSSystemsEmbeddedLinux/ossystems-yocto-base-scripts" path="sources/base"  revision="zeus">
+  <project remote="github" revision="zeus" name="OSSystemsEmbeddedLinux/ossystems-yocto-base-scripts" path="sources/base">
     <copyfile dest="setup-environment" src="setup-environment"/>
   </project>
 
