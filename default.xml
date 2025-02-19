@@ -4,6 +4,7 @@
   <remote fetch="git://git.openembedded.org" name="oe"/>
   <remote fetch="ssh://code.ossystems.com.br" name="ossystems" review="code.ossystems.com.br"/>
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
+  <remote fetch="https://github.com" name="meu"/>
 
   <default remote="ossystems" revision="InvalidRevision" sync-j="4"/>
 
@@ -30,7 +31,7 @@
   <project remote="github" revision="7a972fca33486e4815ed943884ebaa269b812860" name="rust-embedded/meta-rust-bin" path="sources/meta-rust-bin"/>
 		
   <!-- Inobram Layer -->
-  <project name="inobram/smaai5/meta-smaai5" path="sources/meta-smaai5" revision="6.1.x"/>
-  <project name="inobram/smaai5/yocto-config" path="sources/conf/tools" revision="6.1.x"/>
-  <project name="inobram/smaai5/yocto-platform" path="sources/conf/repo" revision="6.1.x"/>
+  <project remote="meu" name="meta-smaai5" path="sources/meta-smaai5" revision="6.1.x"/>
+  <project remote="meu" name="yocto-config" path="sources/conf/tools" revision="master"/>
+  <project remote="meu" name="yocto-platform" path="sources/conf/repo" revision="6.1.x"/>
 </manifest>
