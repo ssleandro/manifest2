@@ -33,5 +33,5 @@
   <!-- Inobram Layer -->
   <project remote="meu" name="ssleandro/meta-bbb2" path="sources/meta-smaai5" revision="6.1.x"/>
   <project remote="meu" name="ssleandro/yocto-config" path="sources/conf/tools" revision="master"/>
-  <project remote="meu" name="ssleandro/yocto-platform" path="sources/conf/repo" revision="6.1.x"/>
+  <project remote="meu" name="ssleandro/manifest2" path="sources/conf/repo" revision="6.1.x"/>
 </manifest>
