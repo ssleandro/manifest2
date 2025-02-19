@@ -8,9 +8,9 @@
   <default remote="github" revision="InvalidRevision" sync-j="4"/>
 
   <!-- OpenEmbedded Layers -->
-  <project name="bitbake" path="sources/bitbake" remote="oe" revision="fd279f857c98d492f43cc62d9ebae18ce6412b6e"/>
-  <project name="openembedded-core" path="sources/openembedded-core" revision="f5b90eeed7366432b39c7cd8c6ee8c23e2d4abe8"/>
-  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="2b5dd1eb81cd08bc065bc76125f2856e9383e98b"/>
+  <project remote="oe" name="openembedded-core" path="sources/openembedded-core" revision="f5b90eeed7366432b39c7cd8c6ee8c23e2d4abe8"/>
+  <project remote="oe" name="meta-openembedded" path="sources/meta-openembedded" revision="2b5dd1eb81cd08bc065bc76125f2856e9383e98b"/>
+  <project remote="oe" name="bitbake" path="sources/bitbake" revision="fd279f857c98d492f43cc62d9ebae18ce6412b6e"/>
 
   <!-- OS Systems Layers -->
   <project remote="github" name="OSSystemsEmbeddedLinux/meta-ossystems-base" path="sources/meta-ossystems-base" revision="zeus"/>
